@@ -1,7 +1,7 @@
 import sys
 
 n, m = map(int, sys.stdin.readline().strip().split())
-trees = sorted(list(map(int, sys.stdin.readline().split())))
+trees = slist(map(int, sys.stdin.readline().split()))
 
 def solve(m,trees):
     answer = 0
